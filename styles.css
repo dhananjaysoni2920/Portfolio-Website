@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 2vw;
+    
+}
+
+h1{
+    color: #F5A7A7;
+    font-size: 3vw;
+}
+
+img{
+    height: 500px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    flex: 50%;
+}
+
+.mydiv{
+    margin: 150px 100px;
+    height: 100%;
+}
+
+ul{
+
+    font-weight: bold;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+
+    list-style: none;
+    font-style: italic;
+    font-size: 2vw;
+    letter-spacing: 1px;
+    
+    color: #959595;
+}
+
+.navbar{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #262626;
+    top: 0;
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    position: fixed;
+    
+}
+
+#branding{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    display: inline;
+    font-style: normal;
+    padding: 20px;
+    
+}
+
+.navbar li a{
+    font-family: Lobster;
+    text-decoration: none;
+    color: white;
+}
+
+#myskills ul{
+    text-align: left;
+}
+
+#myskills li{
+    padding-top: 20px;
+}
+
